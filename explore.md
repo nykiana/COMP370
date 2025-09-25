@@ -14,9 +14,9 @@
 > less clean_dialog.csv
 
 ## TASK 4
-Twilight Sparkle: 4770 (12.94%)
-Rarity: 2682 (7.27%)
-Pinkie Pie: 2880 (7.81%)
-Rainbow Dash: 3154 (8.56%)
+Twilight Sparkle: 4770 (12.94%)  
+Rarity: 2682 (7.27%)  
+Pinkie Pie: 2880 (7.81%)  
+Rainbow Dash: 3154 (8.56%)  
 Fluttershy: 2116 (5.74%)
 > awk 'BEGIN {FPAT = "([^,]*)|(\"[^\"]+\")"} $3 ~ /[pony name]/ {count++} END {print count}' clean_dialog.csv
