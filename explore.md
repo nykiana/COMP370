@@ -1,10 +1,10 @@
-# TASK 3
+## TASK 3
 1. 36860 lines, 4 columns
 > wc -l clean_dialog.csv
 2. 
-    "title": title of the episode
-    "writer": writer of the episode
-    "pony": speaker (pony who is saying the line)
+    "title": title of the episode  
+    "writer": writer of the episode  
+    "pony": speaker (pony who is saying the line)  
     "dialog": content of the line/speech
 > head clean_dialog.csv
 3. 196 episodes
