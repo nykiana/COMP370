@@ -15,12 +15,12 @@
 
 ## TASK 4
 Twilight Sparkle: 4770 (12.94%)
-> awk 'BEGIN {FPAT = "([^,]*)|(\"[^\"]+\")"} $3 ~ /Twilight Sparkle/ {count++} END {print count}' clean_dialog.csv  
+> awk 'BEGIN {FPAT = "([^,]*)|(\"[^\"]+\")"} $3 ~ /Twilight Sparkle/ {count++} END {print count}' clean_dialog.csv>>
 Rarity: 2682 (7.27%)
-> awk 'BEGIN {FPAT = "([^,]*)|(\"[^\"]+\")"} $3 ~ /Rarity/ {count++} END {print count}' clean_dialog.csv  
+> awk 'BEGIN {FPAT = "([^,]*)|(\"[^\"]+\")"} $3 ~ /Rarity/ {count++} END {print count}' clean_dialog.csv>>
 Pinkie Pie: 2880 (7.81%)
-> awk 'BEGIN {FPAT = "([^,]*)|(\"[^\"]+\")"} $3 ~ /Pinkie Pie/ {count++} END {print count}' clean_dialog.csv  
+> awk 'BEGIN {FPAT = "([^,]*)|(\"[^\"]+\")"} $3 ~ /Pinkie Pie/ {count++} END {print count}' clean_dialog.csv>>
 Rainbow Dash: 3154 (8.56%)
-> awk 'BEGIN {FPAT = "([^,]*)|(\"[^\"]+\")"} $3 ~ /Rainbow Dash/ {count++} END {print count}' clean_dialog.csv  
+> awk 'BEGIN {FPAT = "([^,]*)|(\"[^\"]+\")"} $3 ~ /Rainbow Dash/ {count++} END {print count}' clean_dialog.csv>>
 Fluttershy: 2116 (5.74%)
 > awk 'BEGIN {FPAT = "([^,]*)|(\"[^\"]+\")"} $3 ~ /Fluttershy/ {count++} END {print count}' clean_dialog.csv
